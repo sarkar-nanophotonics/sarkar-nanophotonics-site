@@ -1,294 +1,296 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dr. Swagato Sarkar | Nanophotonics</title>
+
     <style>
-<body>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+            color: #222;
+        }
 
-<style>
-    body {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-        background-color: #f7f7f7;
-        color: #222;
-    }
-
-    .container {
-        max-width: 1200px;
-        margin: 0 auto;
-        padding: 50px 30px 80px 30px;
-    }
-
-    .hero {
-        text-align: center;
-        max-width: 950px;
-        margin: 0 auto 60px auto;
-    }
-
-    h1 {
-        font-size: 52px;
-        margin-bottom: 12px;
-    }
-
-    .hero h2 {
-        font-weight: normal;
-        color: #444;
-        margin-bottom: 28px;
-        font-size: 22px;
-    }
-
-    .hero p {
-        font-size: 18px;
-        line-height: 1.8;
-        color: #333;
-        margin: 0 auto;
-    }
-
-    .section {
-        margin-top: 70px;
-    }
-
-    .section-title {
-        text-align: center;
-        font-size: 28px;
-        margin-bottom: 28px;
-        color: #333;
-    }
-
-    .tag-group {
-        text-align: center;
-        max-width: 1100px;
-        margin: 0 auto;
-    }
-
-    .tag {
-        display: inline-block;
-        padding: 10px 18px;
-        margin: 8px;
-        border: 1px solid #cfcfcf;
-        border-radius: 24px;
-        font-size: 15px;
-        background-color: white;
-    }
-
-    .research-block {
-        max-width: 980px;
-        margin: 70px auto 0 auto;
-        background-color: #ffffff;
-        padding: 36px 42px;
-        border-radius: 18px;
-        box-shadow: 0 2px 10px rgba(0,0,0,0.05);
-        text-align: left;
-    }
-
-    .research-block h2 {
-        text-align: left;
-        font-size: 34px;
-        margin-top: 0;
-        margin-bottom: 24px;
-        color: #222;
-    }
-
-    .research-block p {
-        font-size: 18px;
-        line-height: 1.9;
-        margin-bottom: 22px;
-        color: #333;
-        text-align: left;
-    }
-
-    .research-block strong {
-        color: #222;
-    }
-
-    .research-block ul {
-        margin: 10px 0 24px 24px;
-        padding-left: 12px;
-    }
-
-    .research-block li {
-        font-size: 18px;
-        line-height: 1.8;
-        margin-bottom: 8px;
-    }
-
-    .placeholder {
-        font-style: italic;
-        color: #666;
-        margin-top: 10px;
-    }
-
-    @media (max-width: 768px) {
         .container {
-            padding: 35px 18px 60px 18px;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 50px 30px 80px 30px;
+        }
+
+        .hero {
+            text-align: center;
+            max-width: 950px;
+            margin: 0 auto 60px auto;
         }
 
         h1 {
-            font-size: 40px;
+            font-size: 52px;
+            margin-bottom: 12px;
         }
 
         .hero h2 {
-            font-size: 20px;
+            font-weight: normal;
+            color: #444;
+            margin-bottom: 28px;
+            font-size: 22px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            line-height: 1.8;
+            color: #333;
+            margin: 0 auto;
+        }
+
+        .section {
+            margin-top: 70px;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 28px;
+            margin-bottom: 28px;
+            color: #333;
+        }
+
+        .tag-group {
+            text-align: center;
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+
+        .tag {
+            display: inline-block;
+            padding: 10px 18px;
+            margin: 8px;
+            border: 1px solid #cfcfcf;
+            border-radius: 24px;
+            font-size: 15px;
+            background-color: white;
         }
 
         .research-block {
-            padding: 26px 22px;
+            max-width: 980px;
+            margin: 70px auto 0 auto;
+            background-color: #ffffff;
+            padding: 36px 42px;
+            border-radius: 18px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+            text-align: left;
         }
 
         .research-block h2 {
-            font-size: 28px;
+            text-align: left;
+            font-size: 34px;
+            margin-top: 0;
+            margin-bottom: 24px;
+            color: #222;
         }
 
-        .research-block p,
+        .research-block p {
+            font-size: 18px;
+            line-height: 1.9;
+            margin-bottom: 22px;
+            color: #333;
+            text-align: left;
+        }
+
+        .research-block strong {
+            color: #222;
+        }
+
+        .research-block ul {
+            margin: 10px 0 24px 24px;
+            padding-left: 12px;
+        }
+
         .research-block li {
-            font-size: 17px;
+            font-size: 18px;
+            line-height: 1.8;
+            margin-bottom: 8px;
         }
-    }
-</style>
 
-<div class="container">
+        .placeholder {
+            font-style: italic;
+            color: #666;
+            margin-top: 10px;
+        }
 
-    <div class="hero">
-        <h1>Dr. Swagato Sarkar</h1>
-        <h2>Nanophotonics | Plasmonics | Colloidal Metasurfaces</h2>
+        @media (max-width: 768px) {
+            .container {
+                padding: 35px 18px 60px 18px;
+            }
 
-        <p>
-            I work at the intersection of nanophotonics, plasmonics, and colloidal assembly, focusing on the design of
-            functional optical nano-interfaces and collective light-matter interactions.
-        </p>
-    </div>
+            h1 {
+                font-size: 40px;
+            }
 
-    <div class="section">
-        <h2 class="section-title">Research Themes</h2>
-        <div class="tag-group">
-            <div class="tag">Plasmonic Metasurfaces</div>
-            <div class="tag">Hybrid Photonic Plasmonic Systems</div>
-            <div class="tag">Chiral Nanophotonics</div>
-            <div class="tag">Surface Enhanced Spectroscopy</div>
-            <div class="tag">Functional Nano-Interfaces</div>
+            .hero h2 {
+                font-size: 20px;
+            }
+
+            .research-block {
+                padding: 26px 22px;
+            }
+
+            .research-block h2 {
+                font-size: 28px;
+            }
+
+            .research-block p,
+            .research-block li {
+                font-size: 17px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="hero">
+            <h1>Dr. Swagato Sarkar</h1>
+            <h2>Nanophotonics | Plasmonics | Colloidal Metasurfaces</h2>
+
+            <p>
+                I work at the intersection of nanophotonics, plasmonics, and colloidal assembly, focusing on the design of
+                functional optical nano interfaces and collective light matter interactions.
+            </p>
         </div>
-    </div>
 
-    <div class="section">
-        <h2 class="section-title">Approaches</h2>
-        <div class="tag-group">
-            <div class="tag">Template-Assisted Self-Assembly</div>
-            <div class="tag">Laser Interference Lithography</div>
-            <div class="tag">Wrinkle-Assisted Patterning</div>
-            <div class="tag">Colloidal Assembly</div>
-            <div class="tag">Electromagnetic Simulation</div>
+        <div class="section">
+            <h2 class="section-title">Research Themes</h2>
+            <div class="tag-group">
+                <div class="tag">Plasmonic Metasurfaces</div>
+                <div class="tag">Hybrid Photonic Plasmonic Systems</div>
+                <div class="tag">Chiral Nanophotonics</div>
+                <div class="tag">Surface Enhanced Spectroscopy</div>
+                <div class="tag">Functional Nano Interfaces</div>
+            </div>
         </div>
+
+        <div class="section">
+            <h2 class="section-title">Approaches</h2>
+            <div class="tag-group">
+                <div class="tag">Template Assisted Self Assembly</div>
+                <div class="tag">Laser Interference Lithography</div>
+                <div class="tag">Wrinkle Assisted Patterning</div>
+                <div class="tag">Colloidal Assembly</div>
+                <div class="tag">Electromagnetic Simulation</div>
+            </div>
+        </div>
+
+        <div class="research-block" id="plasmonic-metasurfaces">
+            <h2>Plasmonic Metasurfaces</h2>
+
+            <p>
+                My research on plasmonic metasurfaces focuses on developing functional optical interfaces using scalable
+                and bottom up nanofabrication strategies. A central goal is to design nanoparticle assemblies that support
+                collective plasmonic responses rather than isolated particle resonances. These systems allow precise control
+                over electromagnetic field localization, which is critical for spectroscopy and sensing. I have worked
+                extensively on organizing plasmonic nanoparticles into ordered or quasi ordered arrangements using template
+                assisted and colloidal assembly routes. This enables reproducible hot spot formation and improves signal
+                stability in surface enhanced Raman spectroscopy. In addition, I explore how structural parameters such as
+                spacing, symmetry, and lattice arrangement influence the optical response. The broader aim is to bridge
+                fundamental plasmonics with application driven platforms that can be scaled over large areas.
+            </p>
+
+            <p>
+                Another important direction in this work is the translation of these metasurfaces toward practical sensing
+                environments. This includes investigating signal uniformity, robustness, and integration with optical setups.
+                By combining materials design with optical characterization, I aim to develop platforms that are both
+                scientifically interesting and technologically relevant.
+            </p>
+
+            <p><strong>Key directions:</strong></p>
+            <ul>
+                <li>Colloidal plasmonic superlattices and metasurfaces</li>
+                <li>Surface enhanced Raman spectroscopy</li>
+                <li>Hot spot engineering and collective plasmon modes</li>
+                <li>Scalable nanophotonic interfaces</li>
+            </ul>
+
+            <p class="placeholder">[Representative figure will go here]</p>
+        </div>
+
+        <div class="research-block" id="hybrid-systems">
+            <h2>Hybrid Photonic Plasmonic Systems</h2>
+
+            <p>
+                A major part of my work involves coupling plasmonic nanostructures with photonic platforms to access
+                hybrid optical modes. These systems combine the strong field confinement of plasmonics with the spectral
+                selectivity of photonic resonances. I have explored architectures where metallic nanoparticle assemblies
+                are integrated with dielectric waveguides or periodic optical structures. This leads to the formation of
+                hybrid plasmon photon modes that exhibit enhanced interaction with light. Such coupling enables sharper
+                spectral features and improved sensitivity in optical measurements. I also investigate how angle dependent
+                excitation influences these modes, particularly in the context of spectroscopic techniques. The interplay
+                between geometry, material choice, and optical excitation conditions plays a key role in determining the
+                final response. This line of research is closely connected to the development of next generation
+                nanophotonic devices.
+            </p>
+
+            <p>
+                Beyond fundamental understanding, I am interested in translating these hybrid systems toward practical
+                applications. This includes sensing platforms, optical filters, and devices where controlled light matter
+                interaction is essential. The goal is to create systems where design and function are tightly integrated.
+            </p>
+
+            <p><strong>Key directions:</strong></p>
+            <ul>
+                <li>Guided mode resonance coupled plasmonic systems</li>
+                <li>Hybrid plasmon photon modes</li>
+                <li>Waveguide integrated nanostructures</li>
+                <li>Angle resolved optical spectroscopy</li>
+            </ul>
+
+            <p class="placeholder">[Hybrid mode visualization or simulation image here]</p>
+        </div>
+
+        <div class="research-block" id="chiral-nanophotonics">
+            <h2>Chiral Nanophotonics</h2>
+
+            <p>
+                My work in chiral nanophotonics originates from my doctoral research at IIT Delhi, where I developed
+                interference lithography based approaches for the fabrication of three dimensional chiral photonic
+                architectures. These systems were designed to control polarization dependent optical responses such as
+                circular dichroism. By carefully controlling phase relationships in multi beam interference, it was
+                possible to realize complex geometries in a single exposure step. This provided a scalable pathway toward
+                structures that are otherwise difficult to fabricate using conventional methods. The focus during this
+                phase was on understanding how geometry and symmetry breaking influence optical behavior.
+            </p>
+
+            <p>
+                More recently, in collaboration with ShanghaiTech University, we have extended these ideas toward
+                colloidal and plasmonic systems. In this work, we demonstrated the self assembly of gold nanospheres
+                into helical architectures using glycopeptide nanofibers as templates. The assembly process is driven
+                by electrostatic interactions and can be tuned by adjusting the pH of the system. This allows controlled
+                transformation of the morphology from short fragments to well defined helical structures. As a result,
+                the chiroptical response can be modulated in a systematic and reversible manner across a broad pH range.
+            </p>
+
+            <p>
+                We further investigated how these structural variations influence electromagnetic field distribution
+                using numerical simulations. The results showed that changes in the helical geometry directly impact
+                field propagation and localization, which governs the observed chiral optical response. This establishes
+                a clear link between structure and optical function. The ability to tune morphology and response in situ
+                makes these systems promising for sensing applications, particularly in environments where external
+                stimuli play a role.
+            </p>
+
+            <p><strong>Key directions:</strong></p>
+            <ul>
+                <li>Interference lithography for chiral nanostructures</li>
+                <li>Chiral plasmonic and photonic metasurfaces</li>
+                <li>Circular dichroism and polarization control</li>
+                <li>Stimuli responsive chiral assemblies</li>
+            </ul>
+
+            <p class="placeholder">[Chiral structure image or schematic here]</p>
+        </div>
+
     </div>
-
-    <div class="research-block" id="plasmonic-metasurfaces">
-        <h2>Plasmonic Metasurfaces</h2>
-
-        <p>
-            My research on plasmonic metasurfaces focuses on developing functional optical interfaces using scalable
-            and bottom up nanofabrication strategies. A central goal is to design nanoparticle assemblies that support
-            collective plasmonic responses rather than isolated particle resonances. These systems allow precise control
-            over electromagnetic field localization, which is critical for spectroscopy and sensing. I have worked
-            extensively on organizing plasmonic nanoparticles into ordered or quasi ordered arrangements using template
-            assisted and colloidal assembly routes. This enables reproducible hot spot formation and improves signal
-            stability in surface enhanced Raman spectroscopy. In addition, I explore how structural parameters such as
-            spacing, symmetry, and lattice arrangement influence the optical response. The broader aim is to bridge
-            fundamental plasmonics with application driven platforms that can be scaled over large areas.
-        </p>
-
-        <p>
-            Another important direction in this work is the translation of these metasurfaces toward practical sensing
-            environments. This includes investigating signal uniformity, robustness, and integration with optical setups.
-            By combining materials design with optical characterization, I aim to develop platforms that are both
-            scientifically interesting and technologically relevant.
-        </p>
-
-        <p><strong>Key directions:</strong></p>
-        <ul>
-            <li>Colloidal plasmonic superlattices and metasurfaces</li>
-            <li>Surface enhanced Raman spectroscopy</li>
-            <li>Hot spot engineering and collective plasmon modes</li>
-            <li>Scalable nanophotonic interfaces</li>
-        </ul>
-
-        <p class="placeholder">[Representative figure will go here]</p>
-    </div>
-
-    <div class="research-block" id="hybrid-systems">
-        <h2>Hybrid Photonic Plasmonic Systems</h2>
-
-        <p>
-            A major part of my work involves coupling plasmonic nanostructures with photonic platforms to access
-            hybrid optical modes. These systems combine the strong field confinement of plasmonics with the spectral
-            selectivity of photonic resonances. I have explored architectures where metallic nanoparticle assemblies
-            are integrated with dielectric waveguides or periodic optical structures. This leads to the formation of
-            hybrid plasmon photon modes that exhibit enhanced interaction with light. Such coupling enables sharper
-            spectral features and improved sensitivity in optical measurements. I also investigate how angle dependent
-            excitation influences these modes, particularly in the context of spectroscopic techniques. The interplay
-            between geometry, material choice, and optical excitation conditions plays a key role in determining the
-            final response. This line of research is closely connected to the development of next generation
-            nanophotonic devices.
-        </p>
-
-        <p>
-            Beyond fundamental understanding, I am interested in translating these hybrid systems toward practical
-            applications. This includes sensing platforms, optical filters, and devices where controlled light matter
-            interaction is essential. The goal is to create systems where design and function are tightly integrated.
-        </p>
-
-        <p><strong>Key directions:</strong></p>
-        <ul>
-            <li>Guided mode resonance coupled plasmonic systems</li>
-            <li>Hybrid plasmon photon modes</li>
-            <li>Waveguide integrated nanostructures</li>
-            <li>Angle resolved optical spectroscopy</li>
-        </ul>
-
-        <p class="placeholder">[Hybrid mode visualization or simulation image here]</p>
-    </div>
-
-    <div class="research-block" id="chiral-nanophotonics">
-        <h2>Chiral Nanophotonics</h2>
-
-        <p>
-            My work in chiral nanophotonics originates from my doctoral research at IIT Delhi, where I developed
-            interference lithography based approaches for the fabrication of three dimensional chiral photonic
-            architectures. These systems were designed to control polarization dependent optical responses such as
-            circular dichroism. By carefully controlling phase relationships in multi beam interference, it was
-            possible to realize complex geometries in a single exposure step. This provided a scalable pathway toward
-            structures that are otherwise difficult to fabricate using conventional methods. The focus during this
-            phase was on understanding how geometry and symmetry breaking influence optical behavior.
-        </p>
-
-        <p>
-            More recently, in collaboration with ShanghaiTech University, we have extended these ideas toward
-            colloidal and plasmonic systems. In this work, we demonstrated the self assembly of gold nanospheres
-            into helical architectures using glycopeptide nanofibers as templates. The assembly process is driven
-            by electrostatic interactions and can be tuned by adjusting the pH of the system. This allows controlled
-            transformation of the morphology from short fragments to well defined helical structures. As a result,
-            the chiroptical response can be modulated in a systematic and reversible manner across a broad pH range.
-        </p>
-
-        <p>
-            We further investigated how these structural variations influence electromagnetic field distribution
-            using numerical simulations. The results showed that changes in the helical geometry directly impact
-            field propagation and localization, which governs the observed chiral optical response. This establishes
-            a clear link between structure and optical function. The ability to tune morphology and response in situ
-            makes these systems promising for sensing applications, particularly in environments where external
-            stimuli play a role.
-        </p>
-
-        <p><strong>Key directions:</strong></p>
-        <ul>
-            <li>Interference lithography for chiral nanostructures</li>
-            <li>Chiral plasmonic and photonic metasurfaces</li>
-            <li>Circular dichroism and polarization control</li>
-            <li>Stimuli responsive chiral assemblies</li>
-        </ul>
-
-        <p class="placeholder">[Chiral structure image or schematic here]</p>
-    </div>
-
-</div>
-
 </body>
+</html>
