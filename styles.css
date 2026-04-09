@@ -553,3 +553,7 @@ h1 {
         transform: none;
     }
 }
+.contact-list li strong {
+    color: #1f4e8c;
+    font-size: 18px;
+}
