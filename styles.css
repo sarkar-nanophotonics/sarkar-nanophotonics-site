@@ -3,11 +3,14 @@ html {
 }
 
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f7f7f7;
-    color: #222;
+    font-family: "Inter", "Segoe UI", Arial, sans-serif;
+    color: #333;
+    line-height: 1.7;
+}
+
+h1, h2, h3 {
+    font-family: Georgia, "Times New Roman", serif;
+    letter-spacing: 0.3px;
 }
 
 .site-header {
