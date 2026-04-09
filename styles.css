@@ -644,3 +644,39 @@ h1 {
         transition: none;
     }
 }
+/* HERO BACKGROUND */
+.hero-bg {
+    position: relative;
+    background: url("hero.jpg") center/cover no-repeat;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* DARK OVERLAY */
+.hero-overlay {
+    background: rgba(0, 0, 0, 0.55);
+    padding: 40px;
+    border-radius: 12px;
+    text-align: center;
+    color: white;
+    max-width: 800px;
+}
+
+/* TEXT STYLING */
+.hero-overlay h1 {
+    font-size: 2.8rem;
+    margin-bottom: 10px;
+}
+
+.hero-overlay h2 {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+.hero-overlay p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
