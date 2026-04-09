@@ -4,861 +4,166 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dr. Swagato Sarkar | Nanophotonics</title>
-
-    <style>
-.publications-block {
-    max-width: 1100px;
-    margin: 80px auto 0 auto;
-    background-color: #ffffff;
-    padding: 40px 44px;
-    border-radius: 18px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
-}
-
-.publications-block h2 {
-    margin-top: 0;
-    margin-bottom: 24px;
-    font-size: 36px;
-    color: #222;
-}
-
-.pub-year {
-    margin-top: 34px;
-    margin-bottom: 14px;
-    font-size: 28px;
-    color: #222;
-    border-bottom: 1px solid #e0e0e0;
-    padding-bottom: 8px;
-}
-
-.pub-list {
-    margin: 0;
-    padding-left: 22px;
-}
-
-.pub-list li {
-    margin-bottom: 14px;
-    line-height: 1.7;
-    font-size: 17px;
-    color: #333;
-}
-
-.pub-list a {
-    color: #1f4e8c;
-    text-decoration: none;
-}
-
-.pub-list a:hover {
-    text-decoration: underline;
-}
-
-.pub-note {
-    color: #666;
-    font-size: 15px;
-    margin-top: 8px;
-}
-
-    .research-image {
-        width: 100%;
-        max-width: 1200px;
-        display: block;
-        margin: 28px auto 24px auto;
-        border-radius: 14px;
-        box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
-    }
-
-    .overview-image {
-        width: 100%;
-        max-width: 1200px;
-        display: block;
-        margin: 24px auto 0 auto;
-        border-radius: 14px;
-        box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
-    }
-
-    html {
-        scroll-behavior: smooth;
-        } 
-
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f7f7f7;
-            color: #222;
-        }
-
-        .container {
-            max-width: 1400px;
-            margin: 0 auto;
-            padding: 50px 40px 80px 40px;
-        }
-
-        .hero {
-            text-align: center;
-            max-width: 950px;
-            margin: 0 auto 60px auto;
-        }
-
-        h1 {
-            font-size: 52px;
-            margin-bottom: 12px;
-        }
-
-        .hero h2 {
-            font-weight: normal;
-            color: #444;
-            margin-bottom: 28px;
-            font-size: 22px;
-        }
-
-        .hero p {
-            font-size: 18px;
-            line-height: 1.8;
-            color: #333;
-            margin: 0 auto;
-        }
-
-        .section {
-            margin-top: 70px;
-        }
-
-        .section-title {
-            text-align: center;
-            font-size: 28px;
-            margin-bottom: 28px;
-            color: #333;
-        }
-
-        .tag-group {
-            text-align: center;
-            max-width: 1100px;
-            margin: 0 auto;
-        }
-
-        .tag {
-            display: inline-block;
-            padding: 12px 22px;
-            margin: 8px;
-            border: 1px solid #d0d0d0;
-            border-radius: 30px;
-            font-size: 15px;
-            background-color: #ffffff;
-            transition: all 0.2s ease;
-        }
-
-        .research-block {
-            max-width: 1100px;
-            margin: 70px auto 0 auto;
-            background-color: #ffffff;
-            padding: 36px 42px;
-            border-radius: 18px;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
-            text-align: left;
-            scroll-margin-top: 50px;
-        }
-
-        .research-block h2 {
-            text-align: left;
-            font-size: 34px;
-            margin-top: 0;
-            margin-bottom: 24px;
-            color: #222;
-        }
-
-        .research-block p {
-            font-size: 18px;
-            line-height: 1.9;
-            margin-bottom: 22px;
-            color: #333;
-            text-align: left;
-        }
-
-        .research-block strong {
-            color: #222;
-        }
-
-        .research-block ul {
-            margin: 10px 0 24px 24px;
-            padding-left: 12px;
-        }
-
-        .research-block li {
-            font-size: 18px;
-            line-height: 1.8;
-            margin-bottom: 8px;
-        }
-
-        .placeholder {
-            font-style: italic;
-            color: #666;
-            margin-top: 10px;
-        }
-
-        @media (max-width: 768px) {
-            .container {
-                padding: 35px 18px 60px 18px;
-            }
-
-            h1 {
-                font-size: 40px;
-            }
-
-            .hero h2 {
-                font-size: 20px;
-            }
-
-            .research-block {
-                padding: 26px 22px;
-            }
-
-            .research-block h2 {
-                font-size: 28px;
-            }
-
-            .research-block p,
-            .research-block li {
-                font-size: 17px;
-            }
-        }
-        .tag a {
-            text-decoration: none;
-            color: #222;
-            font-weight: 500;
-        }
-
-.tag:hover {
-    background-color: #f0f0f0;
-    border-color: #999;
-    transform: translateY(-2px);
-    cursor: pointer;
-}
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-    <div class="container">
 
-        <div class="hero">
-            <h1>Dr. Swagato Sarkar</h1>
-            <h2>Nanophotonics | Plasmonics | Colloidal Metasurfaces</h2>
+<header class="site-header">
+    <nav class="navbar">
+        <a href="index.html" class="site-title">Dr. Swagato Sarkar</a>
+        <div class="nav-links">
+            <a href="index.html" class="active">Home</a>
+            <a href="research.html">Research</a>
+            <a href="methodologies.html">Methodologies</a>
+            <a href="publications.html">Publications</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </nav>
+</header>
 
+<div class="container">
+
+    <div class="hero">
+        <h1>Dr. Swagato Sarkar</h1>
+        <h2>Nanophotonics | Plasmonics | Colloidal Metasurfaces</h2>
+
+        <p>
+            I am an independent researcher in nano-optics and nanophotonics with expertise in plasmonic and photonic
+            metasurfaces, hybrid light-matter interaction, and scalable bottom-up fabrication of photonic nanomaterials.
+            My work focuses on collective plasmonic-photonic modes, symmetry-controlled optical response, and the
+            development of large-area meta-optical interfaces using colloidal assembly and lithographic approaches.
+        </p>
+    </div>
+
+    <div class="card-grid">
+        <div class="profile-card">
+            <h3>Current Position</h3>
             <p>
-                I work at the intersection of nanophotonics, plasmonics, and colloidal assembly, focusing on the design of
-                functional optical nano interfaces and collective light-matter interactions.
+                Postdoctoral Research Scientist<br>
+                Helmholtz-Zentrum Dresden-Rossendorf<br>
+                Institute of Radiopharmaceutical Cancer Research
             </p>
         </div>
 
-        <div class="section">
-            <h2 class="section-title">Research Themes</h2>
-            <div class="tag-group">
-                <div class="tag"><a href="#plasmonic-metasurfaces">Plasmonic Metasurfaces</a></div>
-                <div class="tag"><a href="#hybrid-systems">Hybrid Photonic-Plasmonic Systems</a></div>
-                <div class="tag"><a href="#chiral-nanophotonics">Chiral Nanophotonics</a></div>
-                <div class="tag"><a href="#sers">Surface Enhanced Spectroscopy</a></div>
-                <div class="tag"><a href="#nano-interfaces">Functional Nano Interfaces</a></div>
-                <div class="tag"><a href="#publications">Publications</a></div>
+        <div class="profile-card">
+            <h3>Research Identity</h3>
+            <p>
+                Bridging nanofabrication, electromagnetic simulation, and optical spectroscopy to establish structure-function
+                relationships in complex photonic and plasmonic systems.
+            </p>
+        </div>
+
+        <div class="profile-card">
+            <h3>Location</h3>
+            <p>
+                Dresden, Germany<br>
+                Working at the interface of photonic materials, functional metasurfaces, and scalable optical nanotechnology.
+            </p>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2 class="section-title">Explore</h2>
+        <div class="tag-group">
+            <div class="tag"><a href="research.html">Research</a></div>
+            <div class="tag"><a href="methodologies.html">Methodologies</a></div>
+            <div class="tag"><a href="publications.html">Publications</a></div>
+            <div class="tag"><a href="about.html">About</a></div>
+            <div class="tag"><a href="contact.html">Contact</a></div>
+        </div>
+    </div>
+
+    <div class="block">
+        <h2>Research Overview</h2>
+        <p>
+            My research develops functional optical nano-interfaces through a combination of bottom-up assembly,
+            interference lithography, soft templating, and simulation-guided design. Across plasmonic metasurfaces,
+            hybrid photonic-plasmonic systems, chiral nanophotonics, surface-enhanced spectroscopy, and functional
+            nano-interfaces, the common objective is to create large-area, scalable architectures with tailored optical
+            response and application relevance.
+        </p>
+
+        <h3>Main Scientific Themes</h3>
+        <ul>
+            <li>Plasmonic metasurfaces based on colloidal and soft-template fabrication pathways</li>
+            <li>Hybrid photonic-plasmonic systems for resonant light-matter interaction</li>
+            <li>Chiral nanophotonics and symmetry-controlled optical response</li>
+            <li>Surface-enhanced spectroscopy and collective mode engineering</li>
+            <li>Functional nano-interfaces for sensing, emission control, and multimodal devices</li>
+        </ul>
+
+        <p>
+            A detailed theme-wise overview is available on the <a href="research.html">Research page</a>.
+        </p>
+    </div>
+
+    <div class="block">
+        <h2>Current Academic Profile</h2>
+        <p>
+            Alongside research, I am actively engaged in editorial work, mentoring, and scientific coordination.
+            I serve as Lead Editor of the forthcoming Royal Society of Chemistry volume <em>Nano-Assemblies for Future Technologies</em>,
+            and I have experience in coordinating interdisciplinary activities and contributing to scientific direction in
+            collaborative research environments. My work also includes supervision and mentoring in nanofabrication,
+            optical characterization, and photonic materials research.
+        </p>
+
+        <ul>
+            <li>Lead Editor, <em>Nano-Assemblies for Future Technologies</em>, Royal Society of Chemistry</li>
+            <li>Mentoring experience across undergraduate, Master's, and doctoral research training</li>
+            <li>Experience in project coordination and research leadership within collaborative environments</li>
+            <li>Regular referee for journals in nanophotonics, materials science, and applied optics</li>
+        </ul>
+
+        <p>
+            More background is available on the <a href="about.html">About page</a>.
+        </p>
+    </div>
+
+    <div class="block">
+        <h2>Selected Navigation</h2>
+        <div class="card-grid">
+            <div class="profile-card">
+                <h3><a href="research.html">Research</a></h3>
+                <p>
+                    Theme-based overview of plasmonic metasurfaces, hybrid systems, chiral nanophotonics,
+                    SERS platforms, and functional nano-interfaces.
+                </p>
+            </div>
+
+            <div class="profile-card">
+                <h3><a href="methodologies.html">Methodologies</a></h3>
+                <p>
+                    Fabrication infrastructure, optical and structural characterization, advanced optical tools,
+                    and scientific computing workflow.
+                </p>
+            </div>
+
+            <div class="profile-card">
+                <h3><a href="publications.html">Publications</a></h3>
+                <p>
+                    Complete year-wise publication record including journal articles, book chapters,
+                    conference papers, thesis work, and manuscripts under review.
+                </p>
             </div>
         </div>
-
-<div class="research-block" id="plasmonic-metasurfaces">
-    <h2>Plasmonic Metasurfaces</h2>
-
-    <p>
-        My research on plasmonic metasurfaces focuses on developing functional optical interfaces using scalable 
-        bottom up nanofabrication strategies. Instead of relying on conventional top down lithography, I design 
-        structures where geometry emerges from controlled self assembly or templated material deposition. This 
-        enables large area plasmonic architectures with reduced fabrication complexity while maintaining strong 
-        control over optical response. I mostly specialize in realizing supracolloidal nanoparticle assemblies and 
-        metallic nanostructures that support collective plasmonic modes with enhanced field localization and 
-        tunable spectral characteristics.
-    </p>
-
-    <p>
-        One key direction involves organizing gold nanoparticles into ordered or quasi ordered lattices using 
-        template assisted self assembly. These supracolloidal structures exhibit pronounced polarization dependent 
-        optical behavior and strong sensitivity to the surrounding refractive index, which we have used for 
-        biosensing applications including TNF alpha detection. In parallel, I have developed soft template based 
-        approaches using mechanically wrinkled polymer substrates combined with oblique angle metal deposition. 
-        These methods enable large area fabrication of anisotropic plasmonic lattices that support both localized 
-        and propagating modes. Importantly, such flexible metasurfaces retain stable optical performance under 
-        mechanical deformation, making them suitable for wearable and adaptable sensing platforms.
-    </p>
-
-    <p>
-        Beyond planar systems, I have extended these approaches to unconventional substrates such as optical fiber 
-        end faces using interfacial self assembly, enabling plasmonic gratings on rough and non planar geometries. 
-        I have also explored plasmon mediated charge transport in metal semiconductor metasurfaces, where hot electron 
-        dynamics and structural design govern the photoresponse. Overall, this work establishes bottom up plasmonic 
-        metasurfaces as versatile platforms that integrate optical, mechanical, and electronic functionalities within 
-        scalable architectures for sensing and device applications.
-    </p>
-
-    <p><strong>Key directions:</strong></p>
-    <ul>
-        <li>Colloidal plasmonic superlattices and nanoparticle chain assemblies</li>
-        <li>Template assisted self assembly and soft lithographic patterning</li>
-        <li>Wrinkle based dielectric templates with oblique metal deposition</li>
-        <li>Flexible plasmonic sensors and deformation stable optical responses</li>
-        <li>Plasmon mediated charge transport and photoresponse engineering</li>
-    </ul>
-
-    <img src="plasmonic.png" alt="Plasmonic metasurfaces" class="research-image">
-</div>
-
-<div class="research-block" id="hybrid-systems">
-    <h2>Hybrid Photonic Plasmonic Systems</h2>
-
-    <p>
-        A central part of my research focuses on hybrid photonic plasmonic systems, where plasmonic nanostructures 
-        are coupled with dielectric photonic platforms to achieve strong and spectrally selective light matter 
-        interaction. These systems combine the field confinement of plasmonics with the low loss and dispersion 
-        control of photonic structures, enabling hybrid modes that cannot be realized in isolated systems. By 
-        carefully designing geometry, periodicity, and excitation conditions, these platforms allow precise control 
-        over optical field localization, spectral response, and propagation characteristics, making them highly 
-        relevant for sensing, energy conversion, and integrated nanophotonic devices.
-    </p>
-
-    <p>
-        In my work, a key direction involves colloidal self assembled nanoparticle lattices integrated with dielectric 
-        waveguides. Using template assisted assembly, gold nanoparticle chains are organized on titanium dioxide 
-        layers to act as efficient couplers that guide light into underlying photonic modes. This leads to the 
-        formation of hybrid plasmon photon polaritonic modes with tunable dispersion and optical band structure. 
-        These systems enable excitation beyond conventional polarization constraints and support strong field 
-        enhancement over large areas. In addition, plasmon mediated charge transfer processes in such hybrid 
-        architectures have been investigated, revealing enhanced photodetection and photocatalytic activity driven 
-        by hot electron generation and nanoscale coupling effects.
-    </p>
-
-    <p>
-        Complementary to colloidal approaches, I have explored lithographic and grating based hybrid architectures 
-        to realize high quality resonances with reduced losses. These include photonic crystal slabs, grating coupled 
-        plasmonic systems, and structures supporting bound states in the continuum. By tuning symmetry and structural 
-        parameters, hybrid modes with high quality factors and strong confinement can be achieved. These resonances 
-        are particularly attractive for sensing applications, where enhanced field penetration, long propagation 
-        lengths, and improved figure of merit are essential. Overall, these non colloidal approaches provide 
-        additional design flexibility and performance optimization, complementing scalable self assembly routes.
-    </p>
-
-    <p><strong>Key directions:</strong></p>
-    <ul>
-        <li>Guided mode resonance coupled plasmonic systems</li>
-        <li>Hybrid plasmon photon polaritons and band structure engineering</li>
-        <li>Plasmon induced charge transfer and photocurrent generation</li>
-        <li>Bound states in the continuum and high Q hybrid modes</li>
-        <li>Refractive index sensing with enhanced figure of merit</li>
-    </ul>
-
-    <img src="hybrid.png" alt="Hybrid photonic plasmonic systems" class="research-image">
-</div>
-
-        <div class="research-block" id="chiral-nanophotonics">
-            <h2>Chiral Nanophotonics</h2>
-
-            <p>
-                My work in chiral nanophotonics originates from my doctoral research at IIT Delhi, where I developed
-                interference lithography based approaches for the fabrication of three dimensional chiral photonic
-                architectures. These systems were designed to control polarization dependent optical responses such as
-                circular dichroism. By carefully controlling phase relationships in multi beam interference, it was
-                possible to realize complex geometries in a single exposure step. This provided a scalable pathway toward
-                structures that are otherwise difficult to fabricate using conventional methods. The focus during this
-                phase was on understanding how geometry and symmetry breaking influence optical behavior.
-            </p>
-
-            <p>
-                More recently, in collaboration with ShanghaiTech University, we have extended these ideas toward
-                colloidal and plasmonic systems. In this work, we demonstrated the self assembly of gold nanospheres
-                into helical architectures using glycopeptide nanofibers as templates. The assembly process is driven
-                by electrostatic interactions and can be tuned by adjusting the pH of the system. This allows controlled
-                transformation of the morphology from short fragments to well defined helical structures. As a result,
-                the chiroptical response can be modulated in a systematic and reversible manner across a broad pH range.
-            </p>
-
-            <p>
-                We further investigated how these structural variations influence electromagnetic field distribution
-                using numerical simulations. The results showed that changes in the helical geometry directly impact
-                field propagation and localization, which governs the observed chiral optical response. This establishes
-                a clear link between structure and optical function. The ability to tune morphology and response in situ
-                makes these systems promising for sensing applications, particularly in environments where external
-                stimuli play a role.
-            </p>
-
-            <p><strong>Key directions:</strong></p>
-            <ul>
-                <li>Interference lithography for chiral nanostructures</li>
-                <li>Chiral plasmonic and photonic metasurfaces</li>
-                <li>Circular dichroism and polarization control</li>
-                <li>Stimuli responsive chiral assemblies</li>
-            </ul>
-
-            <img src="chiral.png" alt="Chiral nanophotonics overview" class="research-image">
-
-        </div>
-
-<div class="research-block" id="sers">
-    <h2>Surface Enhanced Spectroscopy</h2>
-
-    <p>
-        Surface enhanced Raman spectroscopy forms a central part of my research, particularly in the context of
-        engineered plasmonic and hybrid metasurfaces. A key objective is to understand how nanoscale organization,
-        collective optical modes, and structural symmetry influence electromagnetic field localization and Raman
-        enhancement. In this direction, I have explored template assisted colloidal self assembly strategies to
-        fabricate large area plasmonic architectures with controlled interparticle coupling. By utilizing wrinkle
-        based templates, it is possible to guide nanoparticles into one dimensional and two dimensional arrangements
-        that support dense hot spot distributions. In particular, zigzag wrinkle structures enable the formation of
-        plasmonic nanoparticle chains with enhanced coupling and more isotropic optical response compared to linear
-        assemblies. This provides a route toward uniform and efficient SERS substrates that can be tuned through
-        external parameters such as pH when responsive coatings are incorporated.
-    </p>
-
-    <p>
-        Building on these concepts, I further investigate hybrid plasmonic photonic metasurfaces where nanoparticle
-        assemblies are coupled to underlying dielectric modes. These systems enable spectrally selective field
-        enhancement through the formation of hybrid plasmon photon resonances. Using angle resolved SERS, I probe the
-        dispersion of these modes under realistic excitation conditions, including high numerical aperture and oblique
-        incidence. This approach provides direct insight into how guided mode resonances interact with collective
-        plasmonic modes in assembled nanoparticle lattices. A key finding is that the SERS response can be strongly
-        enhanced when the hybrid resonance is tuned to the excitation wavelength, leading to significant intensity
-        increases compared to off resonant conditions.
-    </p>
-
-    <p>
-        An important aspect of this work is the robustness of these metasurfaces. By systematically varying particle
-        concentration and structural periodicity, I establish how disorder and lattice variations influence the
-        emergence of hybrid modes. This allows identification of optimal design conditions where enhancement is
-        maximized while maintaining tolerance to fabrication imperfections. The results provide practical design
-        principles for scalable SERS platforms based on colloidal assembly, where both plasmonic coupling and
-        photonic resonance engineering are combined in a single system.
-    </p>
-
-    <p><strong>Key directions:</strong></p>
-    <ul>
-        <li>Wrinkle templated nanoparticle assembly and zigzag plasmonic chains</li>
-        <li>Hybrid plasmon photonic metasurfaces for SERS</li>
-        <li>Angle resolved spectroscopy and mode dispersion analysis</li>
-        <li>Robust and scalable sensing platforms</li>
-    </ul>
-
-    <img src="sers.png" alt="Surface enhanced spectroscopy overview" class="research-image">
-</div>
-
-<div class="research-block" id="nano-interfaces">
-    <h2>Functional Nano Interfaces</h2>
-
-<p>
-    The overall theme of my research is the design of functional nano interfaces where structural geometry, material
-    composition, and optical or electromechanical response are tightly integrated. Rather than passive platforms,
-    these systems act as active interfaces in which light matter interaction and signal generation can be engineered
-    at the nanoscale. My work combines bottom up assembly, soft lithography, and interference based patterning to
-    create scalable architectures that retain functionality over large areas.
-</p>
-
-<p>
-    One important direction focuses on metasurface integrated triboelectric nanogenerators for multifunctional sensing.
-    By introducing nanostructured dielectric metasurfaces on flexible PDMS films, we enhance electromechanical coupling
-    and charge generation. Using laser interference lithography and soft molding, large area nanocone metasurfaces are
-    fabricated with controlled geometry, enabling improved triboelectric performance. These platforms operate as
-    self powered tactile, proximity, and acoustic sensors, and can be integrated into arrays for real time pressure
-    mapping and frequency resolved detection. In addition, optical diffraction from the metasurface provides a pathway
-    for strain monitoring, enabling multimodal sensing in wearable systems.
-</p>
-
-<p>
-    In parallel, I develop colloidal quantum dot metasurfaces as scalable platforms for controlling light emission.
-    Using template assisted self assembly and soft lithographic printing, perovskite and core shell nanocrystals are
-    organized into periodic structures that enable strong control over emission directionality. These metasurfaces
-    transform inherently omnidirectional emission into directional output and support functionalities such as
-    distributed feedback lasing with reduced thresholds. By incorporating thin metallic layers, hybrid plasmonic modes
-    can be introduced to further tailor emission pathways. This approach enables precise control over optical modes
-    while maintaining low loss and fabrication scalability for integrated photonic applications.
-</p>
-
-    <p><strong>Key directions:</strong></p>
-    <ul>
-        <li>Metasurface enabled triboelectric nanogenerators and e skin platforms</li>
-        <li>Multimodal sensing combining tactile, acoustic, and optical responses</li>
-        <li>Colloidal quantum dot metasurfaces for directional emission control</li>
-        <li>Distributed feedback lasing and hybrid plasmonic emission engineering</li>
-    </ul>
-
-    <img src="interfaces.png" alt="Functional nano interfaces overview" class="research-image">
-</div>
-<div class="publications-block" id="publications">
-    <h2>Publications</h2>
-    <p class="pub-note">
-        Publications are grouped by year, with the most recent year shown first. DOI links are added wherever available.
-    </p>
-
-    <h3 class="pub-year">2026</h3>
-    <ol class="pub-list">
-        <li>
-            Arief, I.; Sarkar, S. (equal first author); Ghosh, A.K.; Verners, O.; Meena, K.K.; Lee, S.-H.; Chae, S.; et al.
-            <a href="https://doi.org/10.1002/adma.202521525" target="_blank" rel="noopener noreferrer">
-                Large-Area 2D Metasurface-Based Triboelectric E-Skin Arrays: Contact and Proximity Tactile Mapping with Broadband Acoustic Readouts
-            </a>.
-            <em>Advanced Materials</em> (2026), e21525.
-        </li>
-        <li>
-            Gorbunova, A.; Sarkar, S.; Kogolev, D.; Ferraz do Valle, W.; Ostermann, M.; Schachinger, T.; Hradil, K.; et al.
-            <a href="https://doi.org/10.1039/d5nr05068e" target="_blank" rel="noopener noreferrer">
-                Laser Writing of Plasmonic Catalytic Microchannels on UiO-66 Layer
-            </a>.
-            <em>Nanoscale</em> (2026).
-        </li>
-        <li>
-            Seçkin, S.; Sarkar, S.* (equal first author); Schneider, F.; Yi, G.; Gaur, K.; Meixner, A.J.; Reitzenstein, S.; Zhang, D.; König, T.A.F.
-            Robust Hybrid Plasmon-Photon Modes in Colloidal Metasurfaces Revealed by Angle-Resolved SERS.
-            <em>Manuscript submitted</em> (2026).
-        </li>
-        <li>
-            Seçkin, S.; Sarkar, S.; Yi, G.; Prudnikau, A.; Ghosh, A.K.; Lesnyak, V.; König, T.A.F.
-            Modular Fabrication of Quantum-Dot-Plasmonic Metasurfaces for Tailored Optical Modes.
-            <em>Revised manuscript submitted</em> (2026).
-        </li>
-        <li>
-            Joh, H.; Seong, E.; Kim, B.; Sarkar, S.; Lee, S.-H.; Park, J.; Lee, K.H.; Kim, W.; Chae, S.; Jung, J.
-            Superlattice of Solution-Processed Indium Tin Oxide (ITO) for Flexible Transparent Electrodes.
-            <em>Manuscript under revision</em> (2026).
-        </li>
-    </ol>
-
-    <h3 class="pub-year">2025</h3>
-    <ol class="pub-list">
-        <li>
-            Tonmoy, T.H.; Seçkin, S.; Hoffmann, M.; Çela, I.; Yi, G.; Alsadig, A.; Sarkar, S.; et al.
-            <a href="https://doi.org/10.1002/smll.202510159" target="_blank" rel="noopener noreferrer">
-                Enhanced Refractive Index Sensitivity of Linearly Assembled Gold Nanoantennae for Biosensing Applications
-            </a>.
-            <em>Small</em> (2025), e10159.
-        </li>
-        <li>
-            Dong, Y.; Sarkar, S.; Fery, A.; Rossner, C.
-            <a href="https://doi.org/10.1002/adom.202401369" target="_blank" rel="noopener noreferrer">
-                Wrinkle-Template Confinement of Kinetically Arrested Cellulose Nanocrystals for Sustainable Large-Scale Reflection Gratings
-            </a>.
-            <em>Advanced Optical Materials</em> 13 (2025), e01369.
-        </li>
-        <li>
-            Adnan, M.; Sarkar, S.* (equal first author); Aftenieva, O.; Brunner, J.; Fery, A.; Vaynzof, Y.; König, T.A.F.
-            <a href="https://doi.org/10.1002/adom.202403397" target="_blank" rel="noopener noreferrer">
-                Selective Directional Enhancement in Gold/Perovskite Quantum Dot Metasurfaces
-            </a>.
-            <em>Advanced Optical Materials</em> 13 (2025), 2403397.
-        </li>
-        <li>
-            Seçkin, S.; Sarkar, S.; König, T.A.F.
-            <a href="https://doi.org/10.1002/admi.202400934" target="_blank" rel="noopener noreferrer">
-                Advancement in Colloidal Metasurfaces: Approaches for Scalable Photonic Devices
-            </a>.
-            <em>Advanced Materials Interfaces</em> 12 (2025), 2400934.
-        </li>
-        <li>
-            Yu, Z.; Sarkar, S. (equal first author); Seçkin, S.; Sun, N.; Ghosh, A.K.; Wießner, S.; Zhou, Z.; Fery, A.
-            <a href="https://doi.org/10.1038/s41598-025-87504-8" target="_blank" rel="noopener noreferrer">
-                2D Wrinkle-Assisted Zigzag Plasmonic Chains for Isotropic SERS Enhancement
-            </a>.
-            <em>Scientific Reports</em> 15 (2025), 3662.
-        </li>
-        <li>
-            Sarkar, S.; König, T.A.F.
-            Nano-engineering of Functional Metasurfaces by Template-Assisted Self-Assembly.
-            In <em>Nano-Engineering at Functional Interfaces for Multi-Disciplinary Applications</em>; Ramamurthy, S.S.; Bhaskar, S.; Reddy, N., Eds.; Micro and Nano Technologies; Elsevier, 209-229 (2025).
-        </li>
-        <li>
-            Alabusheva, V.; Zakomirnyi, V.; Seçkin, S.; Lindenthal, J.; Carelli, G.; Sarkar, S.; Lesnyak, V.
-            CuS Nanoparticle Grating for Directional Photoluminescence Enhancement of NIR Quantum Dots.
-            In <em>Proceedings of MATSUS Spring 2026 Conference</em> (2025).
-        </li>
-    </ol>
-
-    <h3 class="pub-year">2024</h3>
-    <ol class="pub-list">
-        <li>
-            Kumar, L.; Nandan, B.; Sarkar, S.; König, T.A.F.; Pohl, D.; Tsuda, T.; et al.
-            <a href="https://doi.org/10.1016/j.jcis.2024.03.012" target="_blank" rel="noopener noreferrer">
-                Enhanced Photocatalytic Performance of Coaxially Electrospun Titania Nanofibers Comprising Yolk-Shell Particles
-            </a>.
-            <em>Journal of Colloid and Interface Science</em> 674 (2024), 560-575.
-        </li>
-        <li>
-            Cai, Y.; Sarkar, S.; Peng, Y.; König, T.A.F.; Vana, P.
-            <a href="https://doi.org/10.1021/acsnano.4c10234" target="_blank" rel="noopener noreferrer">
-                Ultrasonic Control of Polymer-Capped Plasmonic Molecules
-            </a>.
-            <em>ACS Nano</em> 18 (2024), 31360-31371.
-        </li>
-        <li>
-            Sarkar, S.*; Devinder, S.; Sahoo, P.K.; Joseph, J.
-            <a href="https://doi.org/10.1016/j.optlastec.2024.111107" target="_blank" rel="noopener noreferrer">
-                Exploring Tunable Single-Wavelength Detection Schemes for Guided-Mode Resonance Sensors
-            </a>.
-            <em>Optics &amp; Laser Technology</em> 177 (2024), 111107.
-        </li>
-        <li>
-            Sarkar, S.*; Aftenieva, O.; König, T.A.F.
-            <a href="https://doi.org/10.1007/s00396-024-05276-5" target="_blank" rel="noopener noreferrer">
-                Advances in Scalable Plasmonic Nanostructures: Towards Phase-Engineered Interference Lithography for Complex 2D Lattices
-            </a>.
-            <em>Colloid and Polymer Science</em> (2024), 303, 1787-1800 (2025).
-        </li>
-        <li>
-            Sarkar, S.; Schäfer, C.; König, T.A.F.
-            Energy Transfer at Plasmonic Nanostructures and Photonic Crystal Interfaces: Integrating Quantum Electrodynamics and Colloidal Self-Assembly.
-            In <em>Photonic Crystal, Plasmonic, and Hybrid Interfaces</em>, Section IV: Future Scope and Perspectives, Chapter 27.
-        </li>
-        <li>
-            Sarkar, S.*; Fery, A.
-            Template-Assisted Flexible Plasmonic Metasurfaces: Tailoring Optical Responses through Colloidal and Non-Colloidal Pathways.
-            In <em>Pressure-Induced Flexible Sensors: Fabrication, Characterization and Applications</em>; CRC Press, Taylor and Francis.
-        </li>
-    </ol>
-
-    <h3 class="pub-year">2023</h3>
-    <ol class="pub-list">
-        <li>
-            Sarkar, S.; König, T.A.F.
-            <a href="https://doi.org/10.1002/adsr.202300054" target="_blank" rel="noopener noreferrer">
-                Engineering Plasmonic Hybridization toward Advanced Optical Sensors
-            </a>.
-            <em>Advanced Sensor Research</em> 3 (2023), 2300054.
-        </li>
-        <li>
-            Guo, Z.; Sarkar, S. (equal first author); Liu, R.; Zhang, Y.; Sheng, Q.T.; Chen, G.; König, T.A.F.; Ye, C.
-            <a href="https://doi.org/10.1002/adom.202302728" target="_blank" rel="noopener noreferrer">
-                Dynamic Tunable Chiral Plasmonic Properties via Self-Assembly on Helical Threads
-            </a>.
-            <em>Advanced Optical Materials</em> 12 (2023), 2302728.
-        </li>
-        <li>
-            Kularia, M.; Aftenieva, O.; Sarkar, S.; Steiner, A.M.; Gupta, V.; Fery, A.; Joseph, J.; et al.
-            <a href="https://doi.org/10.1002/pol.202301234" target="_blank" rel="noopener noreferrer">
-                Self-Assembly of Plasmonic Nanoparticles on Optical Fiber End Face
-            </a>.
-            <em>Journal of Polymer Science</em> 61 (2023), 1893-1901.
-        </li>
-        <li>
-            Ghosh, A.K.; Sarkar, S. (equal first author); Tsuda, T.; Chae, S.; Knapp, A.; Nitschke, M.; et al.
-            <a href="https://doi.org/10.1002/adfm.202210172" target="_blank" rel="noopener noreferrer">
-                Plasmonic Photoresistor Based on Interconnected Metal-Semiconductor Grating
-            </a>.
-            <em>Advanced Functional Materials</em> 33 (2023), 2210172.
-        </li>
-        <li>
-            Aftenieva, O.; Brunner, J.; Adnan, M.; Sarkar, S.; Fery, A.; Vaynzof, Y.; König, T.A.F.
-            <a href="https://doi.org/10.1021/acsnano.2c10765" target="_blank" rel="noopener noreferrer">
-                Directional Amplified Photoluminescence through Large-Area Perovskite-Based Metasurfaces
-            </a>.
-            <em>ACS Nano</em> 17 (2023), 2399-2410.
-        </li>
-        <li>
-            Aftenieva, O.; Sudzius, M.; Prudnikau, A.; Adnan, M.; Sarkar, S.; Lesnyak, V.; et al.
-            <a href="https://doi.org/10.1002/adom.202202226" target="_blank" rel="noopener noreferrer">
-                Lasing by Template-Assisted Self-Assembled Quantum Dots
-            </a>.
-            <em>Advanced Optical Materials</em> (2023), 2202226.
-        </li>
-        <li>
-            Jancke, S.; Liu, C.; Wang, R.; Sarkar, S.; Besford, Q.A.; König, T.A.F.; Popp, J.; Cialla-May, D.; Rossner, C.
-            <a href="https://doi.org/10.1039/D3NR04123A" target="_blank" rel="noopener noreferrer">
-                Turning on Hotspots: Supracolloidal SERS Probes Made Brilliant by an External Activation Mechanism
-            </a>.
-            <em>Nanoscale</em> 15 (2023), 18687-18695.
-        </li>
-    </ol>
-
-    <h3 class="pub-year">2022</h3>
-    <ol class="pub-list">
-        <li>
-            Gupta, V.; Aftenieva, O.; Probst, P.T.; Sarkar, S.; Steiner, A.M.; Vogel, N.; Fery, A.; König, T.A.F.
-            <a href="https://doi.org/10.1002/adpr.202200152" target="_blank" rel="noopener noreferrer">
-                Advanced Colloidal Sensors Enabled by an Out-of-Plane Lattice Resonance
-            </a>.
-            <em>Advanced Photonics Research</em> 3 (2022), 2200152.
-        </li>
-        <li>
-            Sarkar, S.*; Ghosh, A.K.; Adnan, M.; Aftenieva, O.; Gupta, V.; Fery, A.; Joseph, J.; König, T.A.F.
-            <a href="https://doi.org/10.1002/adom.202200954" target="_blank" rel="noopener noreferrer">
-                Enhanced Figure of Merit via Hybridized Guided-Mode Resonances in 2D-Metallic Photonic Crystal Slabs
-            </a>.
-            <em>Advanced Optical Materials</em> 10 (2022), 2200954.
-        </li>
-        <li>
-            Joseph, S.; Sarkar, S.; Joseph, J.
-            <a href="https://doi.org/10.1109/JSEN.2022.3194567" target="_blank" rel="noopener noreferrer">
-                High-Sensitivity Resonant Cavity Modes Excited in a Low-Contrast Grating Layer with Large Aspect Ratio
-            </a>.
-            <em>IEEE Sensors Journal</em> 22 (2022), 16856-16861.
-        </li>
-    </ol>
-
-    <h3 class="pub-year">2021</h3>
-    <ol class="pub-list">
-        <li>
-            Joseph, S.; Pandey, S.; Sarkar, S.; Joseph, J.
-            <a href="https://doi.org/10.1515/nanoph-2021-0432" target="_blank" rel="noopener noreferrer">
-                Bound States in the Continuum in Resonant Nanostructures: An Overview of Engineered Materials for Tailored Applications
-            </a>.
-            <em>Nanophotonics</em> 10 (2021), 4175-4207.
-        </li>
-        <li>
-            Samanta, K.; Sarkar, S.; Acuña, S.; Joseph, J.; Ahluwalia, B.S.; Agarwal, K.
-            <a href="https://doi.org/10.1021/acsphotonics.1c00678" target="_blank" rel="noopener noreferrer">
-                Blind Super-Resolution Approach for Exploiting Illumination Variety in Optical-Lattice Illumination Microscopy
-            </a>.
-            <em>ACS Photonics</em> 8 (2021), 2626-2634.
-        </li>
-        <li>
-            Gupta, V.; Sarkar, S. (equal first author); Aftenieva, O.; Tsuda, T.; Kumar, L.; Schletz, D.; et al.
-            <a href="https://doi.org/10.1002/adfm.202105054" target="_blank" rel="noopener noreferrer">
-                Nanoimprint Lithography Facilitated Plasmonic-Photonic Coupling for Enhanced Photoconductivity and Photocatalysis
-            </a>.
-            <em>Advanced Functional Materials</em> 31 (2021), 2105054.
-        </li>
-        <li>
-            Ghosh, A.K.; Sarkar, S. (equal first author); Nebel, L.J.; Aftenieva, O.; Gupta, V.; Sander, O.; et al.
-            <a href="https://doi.org/10.1002/adfm.202101959" target="_blank" rel="noopener noreferrer">
-                Exploring Plasmonic Resonances Toward Large-Scale Flexible Optical Sensors with Deformation Stability
-            </a>.
-            <em>Advanced Functional Materials</em> 31 (2021), 2101959.
-        </li>
-        <li>
-            Sarkar, S.; Gupta, V.; Tsuda, T.; Gour, J.; Singh, A.; Aftenieva, O.; et al.
-            <a href="https://doi.org/10.1002/adfm.202011099" target="_blank" rel="noopener noreferrer">
-                Plasmonic Charge Transfers in Large-Scale Metallic and Colloidal Photonic Crystal Slabs
-            </a>.
-            <em>Advanced Functional Materials</em> 31 (2021), 2011099.
-        </li>
-        <li>
-            Joseph, S.; Sarkar, S.; Khan, S.; Joseph, J.
-            <a href="https://doi.org/10.1002/adom.202001895" target="_blank" rel="noopener noreferrer">
-                Exploring the Optical Bound State in the Continuum in a Dielectric-Grating-Coupled Plasmonic Hybrid System
-            </a>.
-            <em>Advanced Optical Materials</em> 9 (2021), 2001895.
-        </li>
-        <li>
-            Sarkar, S.
-            Template-Assisted Self-Assembly of Plasmonic and Hybrid Metasurfaces for Large-Area Photonic Applications.
-            <em>Ph.D. Thesis</em>, Indian Institute of Technology Delhi (2021).
-        </li>
-        <li>
-            Sarkar, S.; Samanta, K.; Joseph, J.
-            Designing Submicron Chiral Structures through Phase-Engineered Multi-Beam Interference.
-            <em>Springer Proceedings in Physics</em> 258 (ICOL 2019), (2021).
-        </li>
-    </ol>
-
-    <h3 class="pub-year">2020</h3>
-    <ol class="pub-list">
-        <li>
-            Joseph, S.; Sarkar, S.; Joseph, J.
-            <a href="https://doi.org/10.1021/acsami.0c13765" target="_blank" rel="noopener noreferrer">
-                Grating-Coupled Surface Plasmon-Polariton Sensing at a Flat Metal-Analyte Interface in a Hybrid Configuration
-            </a>.
-            <em>ACS Applied Materials &amp; Interfaces</em> 12 (2020), 46519-46529.
-        </li>
-        <li>
-            Sarkar, S.; Samanta, K.; Joseph, J.
-            <a href="https://doi.org/10.1088/2040-8986/ab9c35" target="_blank" rel="noopener noreferrer">
-                Study of Polarization Effects in Phase-Controlled Multi-Beam Interference Lithography toward Sub-Micron Photonic Structures
-            </a>.
-            <em>Journal of Optics</em> 22 (2020), 085105.
-        </li>
-        <li>
-            Sarkar, S.; Samanta, K.; Joseph, J.
-            <a href="https://doi.org/10.1364/OE.382913" target="_blank" rel="noopener noreferrer">
-                Method for Single-Shot Fabrication of Chiral Woodpile Photonic Structures via Phase-Controlled Interference Lithography
-            </a>.
-            <em>Optics Express</em> 28 (2020), 4347-4361.
-        </li>
-        <li>
-            Samanta, K.; Joseph, S.; Pandey, S.; Sarkar, S.; Joseph, J.
-            Designing a Hexagonal Array of Gradient-Pitch Helix Structures Using Multiple Beam Interference.
-            <em>IEEE ICEE</em>, 1-4 (2020).
-        </li>
-        <li>
-            Joseph, S.; Sarkar, S.; Joseph, J.
-            Grating-Coupled Surface Plasmon Sensor with Large Penetration Depth.
-            <em>IEEE ICEE</em>, 1-4 (2020).
-        </li>
-        <li>
-            Samanta, K.; Sarkar, S.; Joseph, J.
-            Resolution Enhancement in Multi-Periodic Pattern Illumination Microscopy.
-            <em>Frontiers in Optics</em> FTu8B.7 (2020).
-        </li>
-        <li>
-            Sarkar, S.; Samanta, K.; Joseph, J.
-            Sub-Micron Array of Split-Ring Resonators through Polarization-Incorporated Phase-Controlled Interference Lithography.
-            <em>Frontiers in Optics</em> FM2A-7 (2020).
-        </li>
-        <li>
-            Sarkar, S.; Joseph, J.
-            Phase-Controlled Interference Lithography for Large-Area Nanophotonic Structures.
-            <em>Three-Dimensional Imaging, Visualization, and Display</em>, 38-57 (2020).
-        </li>
-    </ol>
-
-    <h3 class="pub-year">2019</h3>
-    <ol class="pub-list">
-        <li>
-            Sarkar, S.; Gupta, V.; Kumar, M.; Schubert, J.; Probst, P.T.; Joseph, J.; König, T.A.F.
-            <a href="https://doi.org/10.1021/acsami.9b01983" target="_blank" rel="noopener noreferrer">
-                Hybridized Guided-Mode Resonances via Colloidal Plasmonic Self-Assembled Grating
-            </a>.
-            <em>ACS Applied Materials &amp; Interfaces</em> 11 (2019), 13752-13760.
-        </li>
-        <li>
-            Sarkar, S.; König, T.A.F.; Joseph, J.
-            Colloidal Self-Assembled Approach Toward Hybrid Waveguide-Plasmon Resonances.
-            <em>Laser Science</em> JTu4A.112 (2019).
-        </li>
-    </ol>
-
-    <h3 class="pub-year">2018</h3>
-    <ol class="pub-list">
-        <li>
-            Sarkar, S.; Poulose, S.; Sahoo, P.K.; Joseph, J.
-            <a href="https://doi.org/10.1364/OSAC.1.001277" target="_blank" rel="noopener noreferrer">
-                Flexible and Stretchable Guided-Mode Resonant Optical Sensor: Single-Step Fabrication on Surface-Engineered PDMS
-            </a>.
-            <em>OSA Continuum</em> 1 (2018), 1277-1286.
-        </li>
-        <li>
-            Behera, S.; Sarkar, S.; Joseph, J.
-            <a href="https://doi.org/10.1364/OL.43.000106" target="_blank" rel="noopener noreferrer">
-                Fabrication of Helical Photonic Structures with Submicrometer Axial and Spatial Periodicities Following Inverted-Umbrella Geometry
-            </a>.
-            <em>Optics Letters</em> 43 (2018), 106-109.
-        </li>
-    </ol>
-
-    <h3 class="pub-year">2017</h3>
-    <ol class="pub-list">
-        <li>
-            Sahoo, P.K.; Sarkar, S.; Joseph, J.
-            <a href="https://doi.org/10.1038/s41598-017-08055-5" target="_blank" rel="noopener noreferrer">
-                High-Sensitivity Guided-Mode-Resonance Optical Sensor Employing Phase Detection
-            </a>.
-            <em>Scientific Reports</em> 7 (2017), 7607.
-        </li>
-    </ol>
-
-    <h3 class="pub-year">2016</h3>
-    <ol class="pub-list">
-        <li>
-            Sarkar, S.; Behera, S.; Joseph, J.
-            Fabrication of Sub-Micrometer Helical Photonic Structures Using Top-Cut Hexa-Prism.
-            <em>Fiber Optics and Photonics Conference</em> W4E.3 (2016).
-        </li>
-    </ol>
-
-    <h3 class="pub-year">In preparation</h3>
-    <ol class="pub-list">
-        <li>
-            Sarkar, S.; Fery, A.; Joseph, J.; Bhaskar, S.; Mulvaney, P.
-            <em>Nano-Assemblies for Future Technologies</em>. Royal Society of Chemistry, Cambridge (in preparation).
-        </li>
-    </ol>
-</div>
     </div>
+
+    <div class="block">
+        <h2>Professional Links</h2>
+        <ul>
+            <li><strong>Email:</strong> <a href="mailto:s.sarkar@hzdr.de">s.sarkar@hzdr.de</a></li>
+            <li><strong>Google Scholar:</strong> <a href="#" target="_blank" rel="noopener noreferrer">Add your Google Scholar link here</a></li>
+            <li><strong>LinkedIn:</strong> <a href="#" target="_blank" rel="noopener noreferrer">Add your LinkedIn link here</a></li>
+            <li><strong>Publications:</strong> <a href="publications.html">Open publication list</a></li>
+        </ul>
+    </div>
+
+</div>
+
+<div class="footer">
+    Website of Dr. Swagato Sarkar
+</div>
+
 </body>
 </html>
